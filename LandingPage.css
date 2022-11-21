@@ -1,0 +1,408 @@
+.logo {
+    height: 13%;
+    width: 13%;
+  }
+  body,
+  html {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(236, 229, 229);
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+  }
+  .dropdown-toggle::after {
+    color: #3bbfb5;
+  }
+  .get{
+    background-color:#c5def4;
+  }
+  .droplist{
+    display: none;
+  }
+  .paragraph {
+    width: 485px;
+    height: 286px;
+    margin-top: 25vh;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160.9%;
+    color: #071d49;
+  }
+  .container1 {
+    position: relative;
+  }
+  .first-img {
+    width: auto;
+  } 
+  .cont1 {
+    /* width: 101%; */
+    height: auto;
+    margin-top: -14%;
+    position:relative;
+    background: linear-gradient(180deg, #3bbfb5 0%, #254aa0 53.02%);
+    border-radius: 0px 160px 0px 160px;
+  }
+  .title1{
+    padding:5% 15% 2% 15%;
+    padding-top: 5%;
+    font-weight: 700;
+    font-size: 4vh;
+    font-style: normal;
+    line-height: 158%;
+    /* White */
+    color: #ffffff;
+  }
+ 
+.para1{
+    padding:0 15% 2% 15%;
+    color: #ffffff; 
+    /* width: 95vh; */
+    font-weight: 100;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 150%;
+    /* or 158% */
+}
+
+  
+  .bg {
+    /* The image used */
+    background-image: url("./Landing Page/resources/bg-graphic.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg-grad {
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background: linear-gradient(to right, #254aa0, #7355c0);
+  }
+  .img-contact-us {
+    height: 100%;
+    width: 100%;
+    margin-left: -25px;
+    /* margin-top: 66px; */
+  }
+  .img-contact-us1 {
+    height: auto;
+    width: 107%;
+    object-fit: fill;
+    margin-left: -25px;
+  }
+  .contact-us {
+    text-decoration: underline;
+    /* text-decoration-color: red; */
+  }
+
+  .bgg{
+    /* The image used */
+    background-image: url("./Landing Page/resources/bg-graphic.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+  }
+  .content{
+    background-color: #e0f0f7;
+    border-top-left-radius:65px;
+    border-bottom-right-radius:65px;
+  }
+  .property{
+    border-top-left-radius:65px;
+    border-bottom-right-radius:65px;
+    width:100%;
+    height:90%;
+    
+  }
+
+  /* Innovation in COA */
+  .num {
+    font-size: 80px;
+    color: #071d49;
+    font-weight: bold;
+    -webkit-text-fill-color:  #e0f0f7; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#071d49;
+  }
+  .numPara,.title {
+    font-weight: bold;
+    color: #071d49;
+  }
+
+  .headPara{
+    padding:0 0 0 6%;
+    color:#071d49;
+  }
+
+  .titleTop{
+    font-weight: bold;
+    color: #071d49;
+    font-size: 45px;
+    line-height: 110% ;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .btnLearn{
+  background-color:#254aa0 ;
+  color:white;
+  }
+
+  .line{
+    margin:0 3% 0 3%;
+    border-bottom:1px solid #4cb8c5;
+  }
+  .lists{
+    list-style-type:none;
+    line-height: 30px;
+    font-size: 20px;
+    color:#1c3366
+  }
+  .certify{
+    color:#071d49;
+    padding:0 15% 2% 15%;
+  }
+  .imgcertify{
+/* height: 75%; */
+width: 70%;
+padding-left: 25%;
+  }
+
+  .imgcertify1{
+    /* height: fit-content; */
+    width: 80%;
+    padding-left: 25%;
+      }
+
+      /* Our Solutions */
+.solutions{
+  background: linear-gradient(#3bbfb5, #8ecb42,#7db8a3) ;
+  border-top-left-radius:120px ;
+
+}
+.col{
+  border-top-left-radius:150px ;
+}
+
+.our-solutions-gradient {
+  background: linear-gradient(to top, #72b0ce, #abc876, #3ebfb0);
+  border-top-left-radius: 115px;
+}
+.our-solutions-child {
+  border-top-left-radius: 155px;
+}
+
+.bg-img{
+  width:100%;
+}
+.our-solutions-scroll {
+  direction: rtl;
+  /* overflow: hidden; */
+  height: 470px;
+  width: 300px;
+  /* max-height: 100%; */
+  overflow-y: scroll;
+}
+.item_direction {
+  direction: ltr;
+  color: #5c77b8;
+}
+.our-solutions-gradient {
+  background: linear-gradient(to top, #72b0ce, #abc876, #3ebfb0);
+  border-top-left-radius: 115px;
+  border-bottom-right-radius: 135px;
+}
+.our-solutions-child {
+  border-top-left-radius: 150px;
+}
+.child-second-col {
+  margin-top: 2px;
+}
+.our-solutions-gradient-img {
+  border-top-left-radius: 150px;
+}
+.our-solutions-child .col-md-8 {
+  border-top: 3px solid rgb(33, 149, 141);
+}
+.our-solutions-img {
+  height: 100%;
+  width: 100%;
+}
+.our-solutions-p {
+  font-size: 15px;
+}
+
+.btndropdown{
+  background-color:#254aa0 ;
+  color:white;
+  width:50%;
+  white-space: normal;
+}
+
+.our-solutions-scroll::-webkit-scrollbar-thumb {   /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #5c77b8;;  /* creates padding around scroll thumb */
+}
+/* footer */
+
+.contact-us {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.font {
+  font-family: "Montserrat";
+}
+
+.footer1 {
+  background-color: #071d49;
+  /* padding: 15px; */
+}
+
+.inner-footer {
+  padding: 25px;
+  border-radius: 100px;
+  background-image: linear-gradient(to right, #3fbfaf, #97cc37);
+}
+
+.canva-img {
+  height: 80%;
+  width: 80%;
+}
+
+.social p {
+  font-size: 15px;
+}
+.social h6 {
+  color: #3bbfb5;
+}
+.social li {
+  font-size: 15px;
+}
+
+.list-head {
+  color: #3bbfb5;
+}
+
+.footer1 input {
+  width: 70%;
+}
+.btn-Contact-us {
+  background-color: #ec398a;
+}
+.c-rights {
+  font-size: 12px;
+  color: rgb(212, 207, 207);
+}
+
+/* News and Leadership */
+.img-2 {
+  height: 100%;
+  width: 100%;
+}
+.global-link-event {
+  background-color: #ebf1f7;
+}
+.event-btn {
+  background: linear-gradient(to right, #6f55be 0%, #314ca5);
+}
+
+.global-link {
+  color: rgb(10, 8, 8);
+  text-decoration: underline 2px solid rgb(32, 153, 32);
+}
+/* ----- */
+
+.Globallink-3-images img {
+  height: 100%;
+  width: 100%;
+}
+.insight-webinar {
+  font-size: 15px;
+}
+/* --------------------------- */
+
+/* ---------------last---- */
+.Get-in-touch {
+  background-color: #1f489c;
+  color: white;
+}
+
+
+      @media only screen and (max-width: 600px) {
+
+        .get{
+          display: none ;
+        }
+        .cont1 {
+          margin-top: -50%;
+        }
+        .first-img{
+          margin-left: -6%;
+        }
+        .droplist{
+          display: inline-block;
+        }
+        .our-solutions-scroll{
+          display:none;
+        }
+        .btndropdown{
+          font-size: 15px;
+          height: 20%;
+        }
+        .our-solutions-child .col-md-8 {
+          border-top: 3px solid rgb(248, 248, 248);
+        }
+        .our-solutions-gradient {
+          border-bottom-right-radius: 1px;
+        }
+      }
+
+      @media only screen and (max-width: 850px) {
+        .touch{
+          background-color: #254aa0;
+          color:white;
+        }
+        .navbar-toggler{
+          margin-left:50%;
+        }
+        .titleTop{
+          font-weight: bold;
+          color: #071d49;
+          font-size: 35px;
+          line-height: 100% ;
+        }
+        .droplist{
+          display: inline-block;
+        }
+        .our-solutions-scroll{
+          display:none;
+        }
+        .btndropdown{
+          width:75%;
+          font-size: 15px;
+          height: 20%;
+        }
+        .cont1{
+          margin-top: -25%;
+        }
+      }
+
+      
+   
